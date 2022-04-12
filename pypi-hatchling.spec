@@ -4,7 +4,7 @@
 #
 Name     : pypi-hatchling
 Version  : 0.22.0
-Release  : 2
+Release  : 3
 URL      : https://files.pythonhosted.org/packages/4c/45/5a72bb8b596c9cd3a433f4cf48622770d3d4114a7c9924b74c3ac247331e/hatchling-0.22.0.tar.gz
 Source0  : https://files.pythonhosted.org/packages/4c/45/5a72bb8b596c9cd3a433f4cf48622770d3d4114a7c9924b74c3ac247331e/hatchling-0.22.0.tar.gz
 Summary  : Modern, extensible Python build backend
@@ -73,7 +73,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1649477443
+export SOURCE_DATE_EPOCH=1649759247
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
