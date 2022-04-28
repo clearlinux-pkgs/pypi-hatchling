@@ -1,5 +1,5 @@
 PKG_NAME := pypi-hatchling
-URL = https://files.pythonhosted.org/packages/4c/45/5a72bb8b596c9cd3a433f4cf48622770d3d4114a7c9924b74c3ac247331e/hatchling-0.22.0.tar.gz
+URL = https://files.pythonhosted.org/packages/db/3a/704067749349cb0d034573d81fd1e61664a65017820e1c83278f2467338e/hatchling-0.23.0.tar.gz
 ARCHIVES = 
 
 include ../common/Makefile.common
