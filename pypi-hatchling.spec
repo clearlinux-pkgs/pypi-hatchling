@@ -4,7 +4,7 @@
 #
 Name     : pypi-hatchling
 Version  : 1.3.1
-Release  : 12
+Release  : 13
 URL      : https://files.pythonhosted.org/packages/b0/49/caada91404326c3d4c610afc243e81dd4abc6b8d2caaa39d6954b42d8947/hatchling-1.3.1.tar.gz
 Source0  : https://files.pythonhosted.org/packages/b0/49/caada91404326c3d4c610afc243e81dd4abc6b8d2caaa39d6954b42d8947/hatchling-1.3.1.tar.gz
 Summary  : Modern, extensible Python build backend
@@ -76,7 +76,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1656380380
+export SOURCE_DATE_EPOCH=1656401769
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
