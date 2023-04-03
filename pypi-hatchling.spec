@@ -4,10 +4,10 @@
 # Using build pattern: pyproject
 #
 Name     : pypi-hatchling
-Version  : 1.13.0
-Release  : 44
-URL      : https://files.pythonhosted.org/packages/26/d3/96fa0ee6328ee141f6be444bd913d68c1105f5cca3f7622bced939a34bc5/hatchling-1.13.0.tar.gz
-Source0  : https://files.pythonhosted.org/packages/26/d3/96fa0ee6328ee141f6be444bd913d68c1105f5cca3f7622bced939a34bc5/hatchling-1.13.0.tar.gz
+Version  : 1.14.0
+Release  : 45
+URL      : https://files.pythonhosted.org/packages/2f/3c/97749f46774cf2ccff1c2956de5dfa084f151fe03bb20ebe628a1bba2cea/hatchling-1.14.0.tar.gz
+Source0  : https://files.pythonhosted.org/packages/2f/3c/97749f46774cf2ccff1c2956de5dfa084f151fe03bb20ebe628a1bba2cea/hatchling-1.14.0.tar.gz
 Summary  : Modern, extensible Python build backend
 Group    : Development/Tools
 License  : MIT
@@ -16,6 +16,7 @@ Requires: pypi-hatchling-license = %{version}-%{release}
 Requires: pypi-hatchling-python = %{version}-%{release}
 Requires: pypi-hatchling-python3 = %{version}-%{release}
 BuildRequires : buildreq-distutils3
+BuildRequires : pypi(trove_classifiers)
 BuildRequires : pypi-pathspec
 BuildRequires : pypi-pluggy
 # Suppress stripping binaries
@@ -62,6 +63,7 @@ Requires: pypi(editables)
 Requires: pypi(packaging)
 Requires: pypi(pathspec)
 Requires: pypi(pluggy)
+Requires: pypi(trove_classifiers)
 Requires: pypi-hatch_fancy_pypi_readme
 Requires: pypi-hatch_nodejs_version
 Requires: pypi-hatch_requirements_txt
@@ -72,10 +74,10 @@ python3 components for the pypi-hatchling package.
 
 
 %prep
-%setup -q -n hatchling-1.13.0
-cd %{_builddir}/hatchling-1.13.0
+%setup -q -n hatchling-1.14.0
+cd %{_builddir}/hatchling-1.14.0
 pushd ..
-cp -a hatchling-1.13.0 buildavx2
+cp -a hatchling-1.14.0 buildavx2
 popd
 
 %build
@@ -83,7 +85,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1680273908
+export SOURCE_DATE_EPOCH=1680551268
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
