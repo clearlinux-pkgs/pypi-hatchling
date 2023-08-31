@@ -2,3 +2,4 @@ pypi-hatch_vcs
 pypi-hatch_fancy_pypi_readme
 pypi-hatch_nodejs_version
 pypi-hatch_requirements_txt
+pypi-hatch_jupyter_builder

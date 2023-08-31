@@ -5,7 +5,7 @@
 #
 Name     : pypi-hatchling
 Version  : 1.18.0
-Release  : 52
+Release  : 53
 URL      : https://files.pythonhosted.org/packages/e3/57/87da2c5adc173950ebe9f1acce4d5f2cd0a960783992fd4879a899a0b637/hatchling-1.18.0.tar.gz
 Source0  : https://files.pythonhosted.org/packages/e3/57/87da2c5adc173950ebe9f1acce4d5f2cd0a960783992fd4879a899a0b637/hatchling-1.18.0.tar.gz
 Summary  : Modern, extensible Python build backend
@@ -65,6 +65,7 @@ Requires: pypi(pathspec)
 Requires: pypi(pluggy)
 Requires: pypi(trove_classifiers)
 Requires: pypi-hatch_fancy_pypi_readme
+Requires: pypi-hatch_jupyter_builder
 Requires: pypi-hatch_nodejs_version
 Requires: pypi-hatch_requirements_txt
 Requires: pypi-hatch_vcs
@@ -85,7 +86,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1686582978
+export SOURCE_DATE_EPOCH=1693499692
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
