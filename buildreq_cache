@@ -1,2 +1,4 @@
 1.18.0
+pypi(pathspec)
+pypi(pluggy)
 pypi(trove_classifiers)
