@@ -6,10 +6,10 @@
 # autospec commit: f4bef72
 #
 Name     : pypi-hatchling
-Version  : 1.22.2
-Release  : 59
-URL      : https://files.pythonhosted.org/packages/5e/45/c72ece34dd03e623ce9fc14c180ef164df732726dd0a19fc25d24bef1893/hatchling-1.22.2.tar.gz
-Source0  : https://files.pythonhosted.org/packages/5e/45/c72ece34dd03e623ce9fc14c180ef164df732726dd0a19fc25d24bef1893/hatchling-1.22.2.tar.gz
+Version  : 1.22.3
+Release  : 60
+URL      : https://files.pythonhosted.org/packages/6a/a1/14f87714ecabcb25d2fb5d7640fd2b5cdd46bb4fe91ca5b3456e84127a8c/hatchling-1.22.3.tar.gz
+Source0  : https://files.pythonhosted.org/packages/6a/a1/14f87714ecabcb25d2fb5d7640fd2b5cdd46bb4fe91ca5b3456e84127a8c/hatchling-1.22.3.tar.gz
 Summary  : Modern, extensible Python build backend
 Group    : Development/Tools
 License  : MIT
@@ -76,10 +76,10 @@ python3 components for the pypi-hatchling package.
 
 
 %prep
-%setup -q -n hatchling-1.22.2
-cd %{_builddir}/hatchling-1.22.2
+%setup -q -n hatchling-1.22.3
+cd %{_builddir}/hatchling-1.22.3
 pushd ..
-cp -a hatchling-1.22.2 buildavx2
+cp -a hatchling-1.22.3 buildavx2
 popd
 
 %build
@@ -87,7 +87,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1710609112
+export SOURCE_DATE_EPOCH=1710858332
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
