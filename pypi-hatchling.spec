@@ -7,7 +7,7 @@
 #
 Name     : pypi-hatchling
 Version  : 1.27.0
-Release  : 72
+Release  : 73
 URL      : https://files.pythonhosted.org/packages/8f/8a/cc1debe3514da292094f1c3a700e4ca25442489731ef7c0814358816bb03/hatchling-1.27.0.tar.gz
 Source0  : https://files.pythonhosted.org/packages/8f/8a/cc1debe3514da292094f1c3a700e4ca25442489731ef7c0814358816bb03/hatchling-1.27.0.tar.gz
 Summary  : Modern, extensible Python build backend
